@@ -264,6 +264,70 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 44462092}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &57148583 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1382450560600969628, guid: 42fe896dfcb5ab046bcfcf5cd56bcaa0,
+    type: 3}
+  m_PrefabInstance: {fileID: 585670035655080011}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &57148588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57148583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e716bf86206fb30479d16318dbb592de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enterColor: {r: 0.21176471, g: 0.6117647, b: 0.06666667, a: 0}
+  exitColor: {r: 1, g: 1, b: 1, a: 0}
+--- !u!114 &57148589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57148583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f81de5bcc8970094dad88282fa42491a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionEntered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 57148588}
+        m_MethodName: ChangeEnter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  collisionStayed:
+    m_PersistentCalls:
+      m_Calls: []
+  collisionExited:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 57148588}
+        m_MethodName: ChangeExit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  specificGameObjects: []
 --- !u!1001 &87529273
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -486,6 +550,70 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26141955d54a7b34d857a5b8bbad8df4, type: 3}
+--- !u!1 &203736687 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1382450559404658526, guid: 42fe896dfcb5ab046bcfcf5cd56bcaa0,
+    type: 3}
+  m_PrefabInstance: {fileID: 585670035655080011}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &203736692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203736687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e716bf86206fb30479d16318dbb592de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enterColor: {r: 0.21176471, g: 0.6117647, b: 0.06666667, a: 0}
+  exitColor: {r: 1, g: 1, b: 1, a: 0}
+--- !u!114 &203736693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203736687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f81de5bcc8970094dad88282fa42491a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionEntered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 203736692}
+        m_MethodName: ChangeEnter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  collisionStayed:
+    m_PersistentCalls:
+      m_Calls: []
+  collisionExited:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 203736692}
+        m_MethodName: ChangeExit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  specificGameObjects: []
 --- !u!1001 &237242734
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -561,6 +689,70 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 237242734}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &256804841 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1382450560288255385, guid: 42fe896dfcb5ab046bcfcf5cd56bcaa0,
+    type: 3}
+  m_PrefabInstance: {fileID: 585670035655080011}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &256804846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256804841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e716bf86206fb30479d16318dbb592de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enterColor: {r: 0.21197832, g: 0.6132076, b: 0.06652725, a: 0}
+  exitColor: {r: 1, g: 1, b: 1, a: 0}
+--- !u!114 &256804847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256804841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f81de5bcc8970094dad88282fa42491a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionEntered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 256804846}
+        m_MethodName: ChangeEnter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  collisionStayed:
+    m_PersistentCalls:
+      m_Calls: []
+  collisionExited:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 256804846}
+        m_MethodName: ChangeExit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  specificGameObjects: []
 --- !u!1001 &269587773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1135,7 +1327,7 @@ PrefabInstance:
     - target: {fileID: 246168684435498735, guid: a3db956d607ab774eb03711763327a74,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.78
+      value: -1.34
       objectReference: {fileID: 0}
     - target: {fileID: 246168684435498735, guid: a3db956d607ab774eb03711763327a74,
         type: 3}
@@ -1914,6 +2106,70 @@ Transform:
   m_Father: {fileID: 941893474}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &531726463 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1382450560655035041, guid: 42fe896dfcb5ab046bcfcf5cd56bcaa0,
+    type: 3}
+  m_PrefabInstance: {fileID: 585670035655080011}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &531726468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531726463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e716bf86206fb30479d16318dbb592de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enterColor: {r: 0.21176471, g: 0.6117647, b: 0.06666667, a: 0}
+  exitColor: {r: 1, g: 1, b: 1, a: 0}
+--- !u!114 &531726469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531726463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f81de5bcc8970094dad88282fa42491a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionEntered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 531726468}
+        m_MethodName: ChangeEnter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  collisionStayed:
+    m_PersistentCalls:
+      m_Calls: []
+  collisionExited:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 531726468}
+        m_MethodName: ChangeExit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  specificGameObjects: []
 --- !u!1001 &601704369
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2223,6 +2479,134 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2030322029}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &727530855 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1382450560664402449, guid: 42fe896dfcb5ab046bcfcf5cd56bcaa0,
+    type: 3}
+  m_PrefabInstance: {fileID: 585670035655080011}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &727530860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727530855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e716bf86206fb30479d16318dbb592de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enterColor: {r: 0.21176471, g: 0.6117647, b: 0.06666667, a: 0}
+  exitColor: {r: 1, g: 1, b: 1, a: 0}
+--- !u!114 &727530861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727530855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f81de5bcc8970094dad88282fa42491a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionEntered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 727530860}
+        m_MethodName: ChangeEnter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  collisionStayed:
+    m_PersistentCalls:
+      m_Calls: []
+  collisionExited:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 727530860}
+        m_MethodName: ChangeExit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  specificGameObjects: []
+--- !u!1 &787033541 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1382450560731496934, guid: 42fe896dfcb5ab046bcfcf5cd56bcaa0,
+    type: 3}
+  m_PrefabInstance: {fileID: 585670035655080011}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &787033546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787033541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e716bf86206fb30479d16318dbb592de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enterColor: {r: 0.21176471, g: 0.6117647, b: 0.06666667, a: 0}
+  exitColor: {r: 1, g: 1, b: 1, a: 0}
+--- !u!114 &787033547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787033541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f81de5bcc8970094dad88282fa42491a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionEntered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 787033546}
+        m_MethodName: ChangeEnter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  collisionStayed:
+    m_PersistentCalls:
+      m_Calls: []
+  collisionExited:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 787033546}
+        m_MethodName: ChangeExit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  specificGameObjects: []
 --- !u!1001 &824743539
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4677,6 +5061,134 @@ MonoBehaviour:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
+--- !u!1 &1692120888 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1382450560288437026, guid: 42fe896dfcb5ab046bcfcf5cd56bcaa0,
+    type: 3}
+  m_PrefabInstance: {fileID: 585670035655080011}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1692120893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692120888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e716bf86206fb30479d16318dbb592de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enterColor: {r: 0.21176471, g: 0.6117647, b: 0.06666667, a: 0}
+  exitColor: {r: 1, g: 1, b: 1, a: 0}
+--- !u!114 &1692120894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692120888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f81de5bcc8970094dad88282fa42491a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionEntered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1692120893}
+        m_MethodName: ChangeEnter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  collisionStayed:
+    m_PersistentCalls:
+      m_Calls: []
+  collisionExited:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1692120893}
+        m_MethodName: ChangeExit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  specificGameObjects: []
+--- !u!1 &1697344196 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1382450560823765063, guid: 42fe896dfcb5ab046bcfcf5cd56bcaa0,
+    type: 3}
+  m_PrefabInstance: {fileID: 585670035655080011}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1697344201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697344196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e716bf86206fb30479d16318dbb592de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enterColor: {r: 0.21176471, g: 0.6117647, b: 0.06666667, a: 0}
+  exitColor: {r: 1, g: 1, b: 1, a: 0}
+--- !u!114 &1697344202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697344196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f81de5bcc8970094dad88282fa42491a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionEntered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1697344201}
+        m_MethodName: ChangeEnter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  collisionStayed:
+    m_PersistentCalls:
+      m_Calls: []
+  collisionExited:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1697344201}
+        m_MethodName: ChangeExit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  specificGameObjects: []
 --- !u!1001 &1711438661
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5984,6 +6496,198 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb5fdfd01a508284bb0c6e58e1ebf2c4, type: 3}
+--- !u!1 &2041097943 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1382450561003599657, guid: 42fe896dfcb5ab046bcfcf5cd56bcaa0,
+    type: 3}
+  m_PrefabInstance: {fileID: 585670035655080011}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2041097948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041097943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e716bf86206fb30479d16318dbb592de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enterColor: {r: 0.21176471, g: 0.6117647, b: 0.06666667, a: 0}
+  exitColor: {r: 1, g: 1, b: 1, a: 0}
+--- !u!114 &2041097949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041097943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f81de5bcc8970094dad88282fa42491a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionEntered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2041097948}
+        m_MethodName: ChangeEnter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  collisionStayed:
+    m_PersistentCalls:
+      m_Calls: []
+  collisionExited:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2041097948}
+        m_MethodName: ChangeExit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  specificGameObjects: []
+--- !u!1 &2088977911 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1382450560413814502, guid: 42fe896dfcb5ab046bcfcf5cd56bcaa0,
+    type: 3}
+  m_PrefabInstance: {fileID: 585670035655080011}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2088977916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088977911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e716bf86206fb30479d16318dbb592de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enterColor: {r: 0.21176471, g: 0.6117647, b: 0.06666667, a: 0}
+  exitColor: {r: 1, g: 1, b: 1, a: 0}
+--- !u!114 &2088977917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088977911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f81de5bcc8970094dad88282fa42491a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionEntered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2088977916}
+        m_MethodName: ChangeEnter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  collisionStayed:
+    m_PersistentCalls:
+      m_Calls: []
+  collisionExited:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2088977916}
+        m_MethodName: ChangeExit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  specificGameObjects: []
+--- !u!1 &2091300102 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1382450560186588538, guid: 42fe896dfcb5ab046bcfcf5cd56bcaa0,
+    type: 3}
+  m_PrefabInstance: {fileID: 585670035655080011}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2091300107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091300102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e716bf86206fb30479d16318dbb592de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enterColor: {r: 0.21176471, g: 0.6117647, b: 0.06666667, a: 0}
+  exitColor: {r: 1, g: 1, b: 1, a: 0}
+--- !u!114 &2091300108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091300102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f81de5bcc8970094dad88282fa42491a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionEntered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2091300107}
+        m_MethodName: ChangeEnter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  collisionStayed:
+    m_PersistentCalls:
+      m_Calls: []
+  collisionExited:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2091300107}
+        m_MethodName: ChangeExit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  specificGameObjects: []
 --- !u!1 &2117778399
 GameObject:
   m_ObjectHideFlags: 0
