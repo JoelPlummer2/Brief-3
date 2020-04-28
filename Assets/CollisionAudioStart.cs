@@ -2,17 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CollisionAudio : MonoBehaviour
+public class CollisionAudioStart : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    public AudioSource enterAudio;
+
+    public void ChangeAenter()
     {
-        
+        this.gameObject.GetComponent<AudioSource>().Play();
     }
 }
