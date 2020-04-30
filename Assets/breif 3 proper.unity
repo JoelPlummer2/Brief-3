@@ -5030,6 +5030,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Confetti
       objectReference: {fileID: 0}
+    - target: {fileID: 165102, guid: 4de72d65c2293424cbe6461a89fe2997, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 443126, guid: 4de72d65c2293424cbe6461a89fe2997, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.04
@@ -5130,6 +5134,10 @@ PrefabInstance:
       propertyPath: RotationModule.y.minMaxState
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 19854642, guid: 4de72d65c2293424cbe6461a89fe2997, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 19999264, guid: 4de72d65c2293424cbe6461a89fe2997, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -5150,6 +5158,10 @@ PrefabInstance:
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 19832784, guid: 4de72d65c2293424cbe6461a89fe2997, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 19850206, guid: 4de72d65c2293424cbe6461a89fe2997, type: 3}
       propertyPath: InitialModule.startSizeY.minMaxState
       value: 3
@@ -5165,6 +5177,10 @@ PrefabInstance:
     - target: {fileID: 19850206, guid: 4de72d65c2293424cbe6461a89fe2997, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19850206, guid: 4de72d65c2293424cbe6461a89fe2997, type: 3}
+      propertyPath: playOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4de72d65c2293424cbe6461a89fe2997, type: 3}
@@ -5633,7 +5649,29 @@ MonoBehaviour:
   collisionEntered:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 325005435}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 325005438}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 325005440}
         m_MethodName: Play
         m_Mode: 1
         m_Arguments:
@@ -20230,8 +20268,8 @@ MonoBehaviour:
   collisionEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-        m_MethodName: CopyPropertiesFromMaterial
+      - m_Target: {fileID: 1308627074}
+        m_MethodName: set_material
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 2100000, guid: ad76e927c9a3b2d49b9f5b3dffe7805c,
@@ -20270,8 +20308,8 @@ MonoBehaviour:
   collisionExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-        m_MethodName: CopyPropertiesFromMaterial
+      - m_Target: {fileID: 1308627074}
+        m_MethodName: set_material
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 2100000, guid: f0d7a0b867b5c974fbb3ce6a60a499be,
@@ -20380,7 +20418,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.13, y: -0.2}
+  m_AnchoredPosition: {x: 0.13, y: 1.6}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1317403004
@@ -34470,6 +34508,28 @@ MonoBehaviour:
       - m_Target: {fileID: 1071222005}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 325005440}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 325005438}
+        m_MethodName: Play
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
